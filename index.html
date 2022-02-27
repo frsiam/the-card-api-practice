@@ -11,18 +11,22 @@
     <title>Cards API !</title>
   </head>
   <body class="container my-5">
-      <div class="bg-dark text-white text-center p-3 w-50 mx-auto rounded-3 border border-2 border-info">
-          <h3>Play With Cards API</h3>
-      </div>
+
+    <div class="bg-dark text-white text-center p-3 w-50 mx-auto rounded-3 border border-2 border-info">
+        <h3>Play With Cards API</h3>
+    </div>
     <div class="input-group w-50 mx-auto my-5">
-        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-        <button type="button" class="btn btn-outline-success">search</button>
+        <input id="search-card" type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+        <button onclick="searchCards()" type="button" class="btn btn-outline-success">search</button>
     </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- sweet alert script  -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- external script  -->
+    <script src="./js/app.js"></script>
     
   </body>
 </html>
