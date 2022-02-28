@@ -28,7 +28,7 @@ const searchCards = () => {
     }
     else if(searchValue <= 0 || searchValue > 52){
         mainDiv.textContent = ''
-        error('Must be greater than 0 and less than 52');
+        error('Must be greater than 0 and less than 53');
         searchinput.value = ''
     }
     else{
